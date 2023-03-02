@@ -3,12 +3,31 @@
 valores numéricos ingresados desde teclado (sin menú)" */
 
 document.getElementById('boton').addEventListener('click', () => {
-    let op = prompt("Ingrese la operación con dos números a realizar");
-    const elementos = op.split(" ");
+    let op = prompt("Ingrese una operación (ej. '2 + 2').");
+    let elementos = op.split(" ");
+    let n1 = parseInt(elementos[0]);
+    let n2 = parseInt(elementos[2]);
+    let res = 0;
 
     switch (elementos[1]) {
         case '+':
-            alert(pareseInt(elementos[0]) + pareseInt(elementos[2]));
+            res = n1 + n2;
+            alert('El resultado es ' + res);
+            break;
+
+        case '-':
+            res = n1 - n2;
+            alert('El resultado es ' + res);
+            break;
+        
+        case '*':
+            res = n1 * n2;
+            alert('El resultado es ' + res);
+            break;
+
+        case '/':
+            res = n1 / n2;
+            alert('El resultado es ' + res);
             break;
     }
 });

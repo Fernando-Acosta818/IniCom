@@ -1,10 +1,18 @@
 from django.shortcuts import render
 import json
 
+with open('ejercicios/ejercicios.json', encoding='utf-8') as json_file:
+    ejercicios = json.load(json_file)
+
 def index(request):
-    with open('ejercicios/ejercicios.json', encoding='utf-8') as json_file:
-        context = json.load(json_file)
+    context = ejercicios
     return render(request, 'index.html', context)
 
 def ejercicio(request, num):
-    return render(request, 'ejercicio{}.html'.format(num))
+    desc = ejercicios['ejercicios'][num - 1]['desc']
+
+    context = {
+        'num' : num,
+        'desc' : desc
+    }
+    return render(request, 'ejercicio.html', context)
