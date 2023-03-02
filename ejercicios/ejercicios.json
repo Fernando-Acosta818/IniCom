@@ -1,0 +1,56 @@
+{
+    "ejercicios" : [
+        {
+            "numero" : 1,
+            "desc" : "Programa que realice operaciones básicas (suma resta multiplicación division) con dos valores numéricos ingresados desde teclado (sin menú)" 
+        },
+        {
+            "numero" : 2,
+            "desc" : "Programa que realice división, y mediante estructura condicional if-else revise el divisor, si es cero , mandar mensaje de error, de lo contrario realizar operación y mostrar resultado"
+        },
+        {
+            "numero" : 3,
+            "desc" : "Programa que realice operación básica  (suma resta multiplicación division) , dada una opción de menú (quizá menú numérico: 1-para hacer la suma 2-para hacer la resta 3-para hacer la multiplicacion 4-para la division), con estructuras if separadas o con un switch case"
+        },
+        {
+            "numero" : 4,
+            "desc" : "Programa que determine el mayor de tres números con if-else"
+        },
+        {
+            "numero" : 5,
+            "desc" : "Programa que dado cierto numero indique a que mes corresponde (de 1 a 12 - enero a diciembre) [switch]"
+        },
+        {
+            "numero" : 6,
+            "desc" : "Programa que cuente cuantos números enteros han sido ingresados, mientras sean diferente de cero (con while)"
+        },
+        {
+            "numero" : 7,
+            "desc" : "Programa que haga conteo (y muestre en pantalla los valores) desde cero hasta 50 de dos en dos (ciclo for)"
+        },
+        {
+            "numero" : 8,
+            "desc" : "Programa que haga conteo regresivo (y muestre en pantalla los valores) desde 100 hasta cero, con decremento de 5 (ciclo for)"
+        },
+        {
+            "numero" : 9,
+            "desc" : "Programa que almacene n numeros de enteros en un arreglo, ingresarlos desde teclado e imprimirlos mediante ciclos for"
+        },
+        {
+            "numero" : 10,
+            "desc" : "Tomando en cuenta el programa anterior, realizar la suma de esos elementos del arreglo y obtener su promedio"
+        },
+        {
+            "numero" : 11,
+            "desc" : "Programa que realice multiplicacion enviando los numeros a multiplicar a una función y que el resultado ésta lo regrese al programa principal (creación y llamado de funcion) usando prototipos de funciones"
+        },
+        {
+            "numero" : 12,
+            "desc" : "Programa que realice operaciones básicas con funciones (una función por operación)"
+        },
+        {
+            "numero" : 13,
+            "desc" : "Programa que dentro de una función, a partir de una edad ingresada, indique si la persona es mayor o menor de edad, el valor de edad, debe ser enviada a esa función por medio de puntero o apuntador (paso por referencia)"
+        }
+    ]
+}

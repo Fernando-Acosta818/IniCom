@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+    {% for ejercicio in ejercicios %}
+        <div class="ejercicio-card">
+            <a class="ejercicio-a" href="/ejercicio{{ ejercicio.numero }}">
+                <div class="ejercicio-contenido">
+                    <h3>Ejercicio {{ ejercicio.numero }}</h3>
+                    <p>{{ ejercicio.desc }}</p>
+                </div>
+            </a>
+        </div>
+    {% endfor %}
+{% endblock %}
