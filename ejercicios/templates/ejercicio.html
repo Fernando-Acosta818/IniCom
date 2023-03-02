@@ -1,11 +1,17 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block content %}
-<h1>Ejercicio {{ num }}</h1>
-<p class="desc">
-    {{ desc }}
-</p>
-<button id="boton" class="ejercicio-boton">Comenzar</button>
+<div class="ejercicio-main">
+    <h1>Ejercicio {{ num }}</h1>
+    <p class="desc">
+        {{ desc }}
+    </p>
+    <button id="boton" class="ejercicio-boton">Comenzar</button>
+</div>
+<div class="bloque">
+    <h1>Código fuente</h1>
+    <img src="{% static '/imagenes/bloques' %}/{{ num }}.png" alt="bloque de código">
+</div>
 {% endblock %}
 {% block scripts %}
     <script src="{% static 'js/ejercicio' %}{{ num }}.js"></script>

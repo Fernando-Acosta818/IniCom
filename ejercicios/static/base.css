@@ -90,3 +90,19 @@ main {
     border-radius: 10px;
     display: inline-block;
 }
+
+.ejercicio-boton:hover {
+    cursor: pointer;
+}
+
+.bloque {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bloque > img {
+    margin: 0 auto;
+    width: 700px;
+    border-radius: 15px;
+}
