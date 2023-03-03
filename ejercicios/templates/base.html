@@ -10,25 +10,30 @@
     <title>Iniciación al Cómputo 2</title>
 </head>
 <body>
-    <nav>
-        <div class="nav-item">
-            <img class="logo-fesc" src="{% static '/imagenes/logo.png' %}" alt="">
-        </div>
-        <div class="nav-item">
-            <h2><a href="/">Inicio</a></h2>
-        </div>
-        <div class="nav-item">
-            <h2><a href="/">Acerca del sitio</a></h2>
-        </div>
-        <div class="nav-item">
-            <h2><a href="/">Contacto</a></h2>
-        </div>
-    </nav>
-    <main>
-        {% block content %}
-        {% endblock %}
-    </main>
+    <div class="nav_main">
+        <nav>
+            <div class="nav-item">
+                <img class="logo-fesc" src="{% static '/imagenes/logo.png' %}" alt="">
+            </div>
+            <div class="nav-item">
+                <h2><a href="/">Inicio</a></h2>
+            </div>
+            <div class="nav-item">
+                <h2><a href="/">Acerca del sitio</a></h2>
+            </div>
+            <div class="nav-item">
+                <h2><a href="/">Contacto</a></h2>
+            </div>
+        </nav>
+        <main>
+            {% block content %}
+            {% endblock %}
+        </main>
+    </div>
     {% block scripts %}
     {% endblock %}
+    <footer>
+        Copyright Luis Fernando Acosta Virgen 2023
+    </footer>
 </body>
 </html>

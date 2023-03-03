@@ -1,13 +1,14 @@
-body, html {
-    height: 165%;
-}
-
 body {
     background-color: #ecf0f3;
     font-family: 'Golos Text', sans-serif;
-    display: flex;
     padding: 0;
     margin: 0;
+    position: relative;
+}
+
+.nav_main {
+    display: flex;
+    position: relative;
 }
 
 nav {
@@ -40,6 +41,16 @@ main {
     width: 100%;
     padding: 20px;
     padding-left: 20px;
+}
+
+footer {
+    background-color: #494949;
+    padding: 20px;
+    bottom: 0;
+    position: absolute;
+    color: #FFFFFF;
+    width: 100%;
+    margin-top: 50px;
 }
 
 .contenedor {
