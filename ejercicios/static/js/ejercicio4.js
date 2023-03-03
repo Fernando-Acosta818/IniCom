@@ -9,7 +9,7 @@ function mayor(n1, n2, n3) {
         } else {
             return alert ("El número mayor es " + n3);
         }
-    }  
+    }
     if (n2 > n3) {
         return alert("El número mayor es " + n2);
     } else {
