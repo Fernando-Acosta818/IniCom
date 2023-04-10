@@ -20,5 +20,7 @@ from ejercicios import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index, name='home'),
+    path('acerca/', views.acerca, name='acerca'),
+    path('contacto/', views.contacto, name='contacto'),
     path('ejercicio/<int:num>', views.ejercicio, name='ejercicio')
 ]

@@ -8,6 +8,12 @@ def index(request):
     context = ejercicios
     return render(request, 'index.html', context)
 
+def acerca(request):
+    return render(request, 'acerca.html')
+
+def contacto(request):
+    return render(request, 'contacto.html')
+
 def ejercicio(request, num):
     desc = ejercicios['ejercicios'][num - 1]['desc']
 
