@@ -20,4 +20,8 @@ document.getElementById('boton').addEventListener('click', () => {
             alert('El dato ingresado no es un número');
         }
     } while (entrada != 't');
+
+    for (let i = 0; i < nums.length; i++) {
+        alert(nums[i]);
+    }
 });
