@@ -50,7 +50,7 @@
         },
         {
             "numero" : 13,
-            "desc" : "Programa que dentro de una función, a partir de una edad ingresada, indique si la persona es mayor o menor de edad, el valor de edad, debe ser enviada a esa función por medio de puntero o apuntador (paso por referencia)"
+            "desc" : "Programa que dentro de una función, a partir de una edad ingresada, indique si la persona es mayor o menor de edad, el valor de edad, debe ser enviada a esa función por medio de puntero o apuntador con paso por referencia (La prueba web de este ejercicio está realizada en Javascript, pero el código mostrado y las capturas de ejecución entregadas fueron hechos con C++)"
         }
     ]
 }
